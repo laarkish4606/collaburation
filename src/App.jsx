@@ -23,7 +23,7 @@ const App = () => {
     
   return (
   
-    <div style={{backgroundColor:'red', width:'100%'}}>
+    <div style={{backgroundColor:'yellow', width:'100%'}}>
  
    <h1>QUESTION: {questions[currenntIndex]}</h1>
   
