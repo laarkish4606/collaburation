@@ -28,7 +28,7 @@ const App = () => {
    <h1>QUESTION: {questions[currenntIndex]}</h1>
   
       <button style={{backgroundColor:"blue",padding:"10px", color:"white"}} onClick={addAnswer}>yes</button>
-      <button onClick={addAnswer}>no</button>
+      <button style={{backgroundColor:"blueviolet",padding:"10px", margin:'10px', color:"white"}} onClick={addAnswer}>no</button>
     </div>
   )
 }
